@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Screen"
+        android:id="@+id/screen"
+        android:icon="@drawable/baseline_screen_share_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="Notifications"
+        android:id="@+id/notifications"
+        android:icon="@drawable/baseline_notifications_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_output_24"
+        app:showAsAction="ifRoom|collapseActionView"/>
+</menu>
